@@ -1,0 +1,77 @@
+/* PENGAPLIKASIAN MENYELURUH */
+* {
+    margin: 0px;
+    padding: 0;
+    background-color: wheat;
+    background-image: url();
+    font-size: 100%;
+    box-sizing: border-box;
+}
+/* PENGAPLIKASIAN NAVIGASI BAR */
+#topbar     {
+    padding:10px 0 0 0;
+    font-size: .8em;
+    text-align: right;
+}
+#topbar li  {
+    display:inline;
+    margin-right:3px;
+    padding-right:5px;
+}
+#topbar li:last-child {
+    margin-right:0;
+    padding-right:10px;
+}
+.topheader a {
+    color: black;
+    text-decoration: none
+}
+
+/* PENGAPLIKASIAN JUDUL */
+#MAINHEADER {
+    color: black;
+    font-size: 2em;
+    text-align: left;
+    padding: 1px;
+    padding-top: 0px;
+}
+
+/* PENGAPLIKASIAN MENU UTAMA */
+.nav {
+    background-color: black;
+}
+#MENU li {
+    background-color: black;
+    margin: 0px 0px 0px 0px;
+    margin-left: 15px;
+    list-style-type: none;
+    display:inline-block;
+    line-height: 35px;
+}
+.MENU a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+ }
+ 
+.judul {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 3em;
+}
+/* PENGAPLIKASIAN GAMBAR */
+body article img {
+    padding-left: 40px;
+    position: relative;
+}
+
+ /* PENGAPLIKASIAN PARAGRAF */
+p {
+    font-size: 1em;
+    padding-left: 40px;
+    text-align: justify;
+    padding-top: 20px;
+    padding-right: 20px;
+}
